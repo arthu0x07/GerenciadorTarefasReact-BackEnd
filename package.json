@@ -1,0 +1,20 @@
+{
+  "name": "GerenciadorTarefasReact-BackEnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthu0x07/GerenciadorTarefasReact-BackEnd.git"
+  },
+  "keywords": [],
+  "author": "kraddie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthu0x07/GerenciadorTarefasReact-BackEnd/issues"
+  },
+  "homepage": "https://github.com/arthu0x07/GerenciadorTarefasReact-BackEnd#readme"
+}
