@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/arthu0x07/GerenciadorTarefasReact-BackEnd/issues"
   },
-  "homepage": "https://github.com/arthu0x07/GerenciadorTarefasReact-BackEnd#readme"
+  "homepage": "https://github.com/arthu0x07/GerenciadorTarefasReact-BackEnd#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
 }
