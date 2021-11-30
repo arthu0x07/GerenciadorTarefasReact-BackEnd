@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/arthu0x07/GerenciadorTarefasReact-BackEnd#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.27.0",
     "express": "^4.17.1",
     "mongoose": "^6.0.11"
   },

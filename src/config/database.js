@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const url = 'mongodb://localhost:27017/todo';
+const url = 'mongodb://localhost:27017/todoapppp';
 
 mongoose.connect(url, {useNewUrlParser: true});
 
