@@ -7,7 +7,9 @@ servidor.use(express.json());
 servidor.use(cors())
 
 const TaskRouters = require('./routers/TaskRoute');
+const UserRouters = require('./routers/UserRoute');
 
 servidor.use('/task', TaskRouters);
+servidor.use('/user', UserRouters)
 
 servidor.listen(3333)

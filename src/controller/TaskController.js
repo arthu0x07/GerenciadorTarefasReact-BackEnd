@@ -26,7 +26,7 @@ class TaskController{
         .then(response => {return res.status(200).json(response)})
         .catch(error => {return res.status(500).json(error)});
 
-        // save() => método utilizado para salvar os dados que vem do front no banco de dados
+        // save() => método utilizado para salvar os dados que vem do front no banco de dados -> cada documento pode ser salvo automaticamente na base, de um console log em um documento retornado da base para checar as informações que ele possui.
         //then() => resposta positiva, caso o salvamento for bem sucedido
         //catch () => tratamento de erro, caso for mal sucedido
 
@@ -77,7 +77,6 @@ class TaskController{
 
     }
 
-
     //método responsável por encontrar a tarefa pelo id e atualizar o status de feito ou não feito.
     async done(req, res){
 
@@ -97,7 +96,6 @@ class TaskController{
         .then(response => {return res.status(200).json(response)})
         .catch(error => {return res.status(500).json(error)});
     }
-
 
     //filtros => hoje 
     async today(req, res){
@@ -134,11 +132,6 @@ class TaskController{
         .then(response => {return res.status(200).json(response)})
         .catch(error => {return res.status(500).json(error)});
     }
-
-
-
-
-
 }
 
 module.exports = new TaskController();
